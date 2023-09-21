@@ -4,12 +4,13 @@ html {
 body{
   width:80%;
   margin:auto;
+  
 }
 main{
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  
 }
 
 nav,.enlaces{
