@@ -8,21 +8,39 @@
 </head>
 <body>
     <header>
-        <h1>Around the world</h1>
-        <h2>Ubicaciones</h2>
         <nav>
             <button><a href="../index.html">Home</a></button>
-            <button><a href="./biografia.html">Biografía</a></button>
-            <button><a href="./archivo.html">Archivo</a></button>
+            <div class="dropdown">
+              <button><a href="./biografia.html">Biografía</a></button>
+              <div class="dropdown-content">
+              <a href="#escocia">Escocia</a>
+              <a href="#roma">Roma</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button>
+                <a href="./archivo.html">Archivo</a></button>
+              <div class="dropdown-content">
+              <a href="#escocia">Escocia</a>
+              <a href="#roma">Roma</a>
+              </div>
+            <div class="dropdown">
             <button><a href="./contacto.html">Ubicaciones</a></button>
-        </nav>
+          </nav>
+        <h1>Around the world</h1>
+        <h2>Ubicaciones</h2>
+
             
         </header>
         <main>
             <p>A esta página hay que cambiarle el nombre, pero servirá para aportar ubicaciones.</p>
+
+            <h3 class="escocia" id="escocia">Escocia</h3>
+
+            <h3 class="roma" id="roma">Roma</h3>
         </main>
         <footer>
-            <div class="top"><a href="#"> &#128285; Back to top &#9992;</a></div>
+            <div class="top"><a href="#top"> &#128285; Back to top &#9992;</a></div>
         </footer>
 </body>
 </html>

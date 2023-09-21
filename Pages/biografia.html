@@ -8,31 +8,93 @@
 </head>
 <body>
     <header>
-        <h1>Around the world</h1>
-        <h2>Biografía</h2>
         <nav>
             <button><a href="../index.html">Home</a></button>
-            <button><a href="./biografia.html">Biografía</a></button>
-            <button><a href="./archivo.html">Archivo</a></button>
-            <button><a href="./contacto.html">Ubicaciones</a></button>
-        </nav>
+            <div class="dropdown">
+              <button><a href="./biografia.html">Biografía</a></button>
+              <div class="dropdown-content">
+              <a href="#escocia">Escocia</a>
+              <a href="#roma">Roma</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button><a href="./archivo.html">Archivo</a></button>
+              <div class="dropdown-content">
+              <a href="#escocia">Escocia</a>
+              <a href="#roma">Roma</a>
+              </div>
+            <div class="dropdown">
+                <button><a href="./contacto.html">Ubicaciones</a></button>
+                <div class="dropdown-content">
+                <a href="#escocia">Escocia</a>
+                <a href="#roma">Roma</a>
+                </div>
+            </div>
+          </nav>
+
+        <h1>Around the world</h1>
+        <h2>Biografía</h2>
     </header>
     <main>
         <p>En esta página hablaré de rutas de viaje concretas, recomendaciones y actividades.</p>
-        <h3 id="escocia">Escocia</h3>
+        <h3 class="escocia" id="escocia">Escocia</h3>
         <img src="" alt="Escocia paisaje">
         <p>Al pensar en Escocia a la mayoría de la gente le vienen a la mente prados verdes, lagos, castillos medievales y bueno para los más frikis <i>Outlander</i> y <i>Harry Potter</i>, como no. Escocia es, efectivamente, todo eso, pero yo te voy a invitar a ver Escocia también desde la perspectiva literaria y folclórica, donde Walter Scott enamoró al rey de Inglaterra de su cultura y donde entre los edificios rodeados de niebla se podrían esconder hadas de esas que quieren absorberte el alma. Pero no te asustes, será un capítulo breve. </p>
         <h4>Ruta</h4>
-        <p>No nos adelantemos a los acontecimeintos. Lo primero es detallar la ruta que seguimos para situarnos.</p>
+        <p>No nos adelantemos a los acontecimeintos. Lo primero es detallar la ruta que seguimos y aclarar algunas cosas. A ver, en Escocia hace frío (sí, hasta en verano) y llueve mucho, por lo que hay que ir bien preparado, así que presta atención, me lo agradecerás más tarde:
+            <ul>
+                <li>Pantalón largo</li>
+                <li>Zapato cómodo e <b>impermeable</b></li>
+                <li>CAPAS de ropa y una bufanda tipo manta</li>
+                <li>Paraguas y chubasquero tipo anorak finito</li>
+                <li>Mochila</li>
+            </ul>
+            Ahora sí, los detalles de la ruta: <br>
+            Aterrizamos en Edimburgo, donde pasamos los primeros días de nuestra estancia visitando la ciudad, que detallaremos más adelante. Tras conocer a fondo la capital de Escocia hicimos diferentes excursiones de un día a otros puntos de la región (también tienes la opción de trasladarte a otro lugar de Escocia para visitar otras zonas, pero en nuestro caso nos quedamos en la ciudad). <br> La primera excursión fue por las tierras bajas de Escocia para visitar Loch Lomond y Stirling, además de los paisajes y pueblecitos que quedan en medio. Después hicimos una segunda excursión, esta vez por las tierras altas, los <i>Highlands</i> en la que pasamos por Glencoe, Fort William y llegamos hasta Fort Augustus, a orillas de Loch Ness entre otras pequeñas paradas. Finalmente hicimos la excursión de los castillos, para la cual bajamos al norte de Inglaterra a visitar Alnwick Castle y más tarde Bamburg Castle. Terminamos el viaje con otra vuelta por los lugares que más nos gustaron de Edimburgo </p>
+
+            <tr id="detallesEscocia">
+                <td><b>Edimburgo</b>
+                    <dd></dd>
+                </td>
+                <td><b>Tierras bajas (<i>Lowlands</i>)</b>
+                    <dd></dd>
+                </td>
+                <td><b>Tierras altas (<i>Highlands</i>)</b>
+                    <dd></dd>
+                </td>
+                <td><b>Castillos</b>
+                    <dd></dd>
+                </td>
+            </tr>
 
 
-        <h3 id="japon">Japón</h3>
-        <img src="" alt="Portones">
-        <p>Explicando viaje a Japón.</p>
+
+        <h3 class="roma" id="roma">Roma</h3>
+        <img src="" alt="coliseo romano">
+        <p>Roma es una ciudad que tiene tantas cosas por ver que prácticamente no te la acabas. Nosotros decidimos recorrerla andando en la medida de lo posible, pero hay que tener cuidado, pues la mayoría de las calles son adoquinadas y el suelo es muy irregular. Así que recuerda: nada de sandalias, taconcitos o demás, lleva zapato cómodo y cerrado. Además, es importante tener en cuenta que si vas en verano hace mucho calor, las temperaturas rondan fácilmente los 30ºC - 35ºC, el abanico, la cantimplora, gorra y gafas de sol serán tus mejores amigos. Sin embargo, hay lugares a los que no vas a poder entrar con los hombros y las rodillas descubiertas, tenlo presente al hacer la maleta. También me gustaría destacar que NO debes gastar dinero en comprar agua, ya que por toda la ciudad hay fuentes de agua potable y fresca que siempre andan echando agua y en las que puedes Y DEBES rellenar tu cantimplora. Dicho esto, veamos qué maravillas hay por visitar en Roma.</p>
+
+
+        <tr id="detallesRoma">
+            <td><b>Coliseo y foro romano</b>
+                <dd></dd>
+            </td>
+            <td><b>Vaticano - Basílica San Pedro y museos</b>
+                <dd></dd>
+            </td>
+            <td><b>Fuentes, plazas y otros lugares emblemáticos</b>
+                <dd></dd>
+            </td>
+            <td><b>Gastronomía</b>
+                <dd>Para los más <i>foodies</i> traigo esta sección dedicada a la gastronomía italiana. Hay más cosas que pizza, pasta y helados en italia, ¿pero para qué engañarnos?, son precisamente los platos que más interesan a la mayoría cuando va a Italia, así que por supuesto hablaremos de ellos. <br></dd>
+            </td>
+        </tr>
+        
+
+    
         
     </main>
     <footer>
-        <div class="top"><a href="#"> &#128285; Back to top &#9992;</a></div>
+        <div class="top"><a href="#top"> &#128285; Back to top &#9992;</a></div>
     </footer>
 </body>
 </html>
