@@ -1,0 +1,16 @@
+nav,ul,li{
+    height: 100%;
+}
+nav > ul > li{
+    list-style:none;
+    display: block;
+    padding: 24px 4px;
+}
+nav > ul > li:hover{
+    background-color: #F8EDEB;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color:black;
+}
+

@@ -2,53 +2,35 @@ html {
     scroll-behavior: smooth;
   }
 body{
-  width:90%;
-  margin: auto;
+  width:80%;
+  margin:auto;
 }
 main{
-  margin: 30px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-  nav{
-    position:relative;
-    top: 0;
-    background-color: #6D4C3D;
-    padding: 20px;
-    margin-bottom: 50px ;
+
+nav,.enlaces{
+    background-color:#A37966;
+    width:100%;
+    margin: auto;
   }
-  button{
-    background-color: #FCEBDB;
-    color: #000000;
-    padding: 5px;
-  }
-  a{
-    color: #000000;
-    padding: 5px;
-  }
-  .dropdown {
-    display: inline-block;
-    position: relative;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    width: 100%;
-    overflow: auto;
-    background-color: antiquewhite;
-    z-index: 3;
-  }
-  .dropdown:hover .dropdown-content {
+
+nav > ul > li{
+    list-style:none;
     display: block;
-  }
-  .dropdown-content a {
-    display: block;
-    color: #000000;
-    padding: 5px;
+    padding: 24px 4px;
+}
+nav > ul > li:hover{
+    background-color:#6D4C3D ;
+}
+nav > ul > li > a {
     text-decoration: none;
-  }
-  .dropdown-content a:hover {
-    color: #FFFFFF;
-    background-color: #00A4BD;
-  }
+    color:white;
+    padding-right: 100%;
+}
 
 
 
