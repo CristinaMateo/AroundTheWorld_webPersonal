@@ -10,19 +10,22 @@ main{
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  
 }
 
-nav,.enlaces{
+/*
+nav{
     background-color:#A37966;
-    width:100%;
-    margin: auto;
+    padding: 10px;
   }
 
 nav > ul > li{
     list-style:none;
-    display: block;
-    padding: 24px 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-around;
+   
 }
 nav > ul > li:hover{
     background-color:#6D4C3D ;
@@ -30,7 +33,33 @@ nav > ul > li:hover{
 nav > ul > li > a {
     text-decoration: none;
     color:white;
-    padding-right: 100%;
+    padding: 10px 20px;
+}*/
+
+nav,ul,li{
+  height: 100%;
+}
+nav > ul > li{
+  list-style:none;
+  display: inline;
+  padding: 24px 20px;
+  margin: 0 20px;
+
+}
+nav > ul > li:hover{
+  background-color: #6D4C3D;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color:white;
+  padding: 25px 30px;
+}
+nav{
+  background-color:#A37966; 
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 
