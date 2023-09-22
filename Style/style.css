@@ -43,11 +43,9 @@ body {
 
   h1{
   text-align: center;
-  /*border: #6D4C3D dashed;*/
   }
   h2{
     text-align: center;
-    /*border: #6D4C3D dashed;*/
     width: 50%;
     margin: auto;
     border-radius: 5px;
@@ -63,28 +61,43 @@ body {
 aside{
   flex: 30%;
   padding: 1.25em;
+  margin-top: 5em;
 }
+
+aside > h3 > a{
+  text-decoration: none;
+  color: black;
+  padding: 4em auto;
+  margin: 4em auto;
+}
+aside > img{
+  width: 100%;
+}
+
+aside > img > p{
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  margin-top: 0.05em;
+}
+
+
 #intro{
   flex: 70%;
   padding: 1.25em;
-}
 
-  #indice > article{
-    margin: 30px auto;
-    padding: 10px;
-    background-color: #ABC4AB;
-    border: #727D71 dotted;
-    border-radius: 10px;
-    width: 70%;
+  & article{
+    margin: 0.5em auto;
+    padding: 0.75em 0;
   }
-
+}
   p{
     text-align: justify;
     line-height: 1.25;
   }
   
-
-
+  .intro{
+    width: 40vw;
+  }
 
   div.top{
     position:fixed;
@@ -123,5 +136,11 @@ footer > section > p{
   }
   main{
     width: 90%;
+  }
+  .intro{
+    width: 100vw;
+  }
+  aside > img{
+    width: 100vw;
   }
 }
