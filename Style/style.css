@@ -3,71 +3,73 @@ html {
   }
 
 body {
-  width:80%;
+  width:70%;
   margin:auto;
   background-color: #F8F5F1;
+  font-family: 'Antic Didone';
+  font-size: 1em;
   }
 
-  nav,ul,li{
-    height: 100%;
-  }
-  nav > ul > li{
-    list-style:none;
-    display: inline;
-    padding: 24px 20px;
-    margin: 0 20px;
-  
-  }
-  nav > ul > li:hover{
-    background-color: #6D4C3D;
-  }
-  nav > ul > li > a {
-    text-decoration: none;
-    color:white;
-    padding: 25px 30px;
-  }
   nav{
-    background-color:#A37966; 
-    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    background-color: #A37966;
   }
+  
+  nav > a {
+    color: white;
+  padding: 0.7em 1.1em;
+  text-decoration: none;
+  text-align: center;
+  }
+
+  nav > a:hover{
+    background-color:#6D4C3D ;
+  }
+
+
+.head{
+  margin: 1.1em auto;
+  padding: 0.55em;
+  background-color: #C0AD94;
+  border: #9A7F5B dashed;
+}
+
   h1{
   text-align: center;
-  border: #6D4C3D dashed;
+  /*border: #6D4C3D dashed;*/
   }
   h2{
     text-align: center;
-    border: #6D4C3D dashed;
+    /*border: #6D4C3D dashed;*/
     width: 50%;
     margin: auto;
     border-radius: 5px;
-    }
+  }
+
   main{
       margin: auto;
       display: flex;
       flex-wrap: wrap;
     }
 
-  p{
+  #intro p{
   text-align: justify;
 }
-  #indice{
-    column-count: 2;
-    column-gap: 3em;
-    column-rule-style:dashed;
-    column-rule-width: 0.5px;
-    column-rule-color: #727D71 ;
-    margin: 30px 20px;
+
+#intro{
+
+}
+
+  #indice > article{
+    margin: 30px auto;
     padding: 10px;
     background-color: #ABC4AB;
     border: #727D71 dotted;
     border-radius: 10px;
+    width: 70%;
   }
-  article.roma{
-    padding-top: 5px;
-  }
+
   div.top{
     position:fixed;
     bottom:10px;
@@ -86,17 +88,17 @@ body {
 }
 footer{
   margin-top: 50px;
+  margin-bottom: 60px;
+}
+footer > section > p{
+  color: #727D71;
+  text-align: center;
+  font-weight: bold;
 }
 
-/* #megasección{
-    position: relative;
-    z-index: 2;
+
+@media screen and (max-width: 700px) {
+  nav{   
+    flex-direction: column;
   }
-#fondo{
-  position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: auto;
-    opacity: 0.4;
-}*/
+}
