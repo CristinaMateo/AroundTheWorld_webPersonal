@@ -162,8 +162,22 @@ aside > button > a{
   padding: 1em 0;
 }
 
-
-  
+/*aquí empieza la parte del archivo*/
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0.2em;
+}
+.fotos{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 0.2em;
+}
+.fotos img{
+  margin-top: 0.4em;
+  vertical-align: middle;
+  width: 100%;
+}
 
 
   
@@ -206,6 +220,10 @@ aside > button > a{
 /*a partir de aquí la biografía*/
 #viajes img{
   width: 90vw;
+}
+.fotos{
+  flex: 50%;
+  max-width: 50%;
 }
 
 }
