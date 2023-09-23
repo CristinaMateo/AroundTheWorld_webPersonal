@@ -214,6 +214,8 @@ iframe{
   }
   aside{
     width: 90vw;
+    height: 100vh;
+    padding: 0;
   }
   aside > img{
     width: 90vw;
@@ -226,23 +228,23 @@ iframe{
     max-width: 90vw;
   
   }
-  aside{
-    height: 100vh;
   }
 /*a partir de aquí la biografía*/
 #viajes img{
   width: 90vw;
 }
+/*esto archivo*/
 .fotos{
   flex: 50%;
   max-width: 50%;
 }
+/*aquí localizaciones*/
 iframe{
   width: 90vw;
 }
 
 
-}
+/*esto también archivo*/
 @media screen and (max-width: 550px) {
   .fotos {
     flex: 100%;
