@@ -184,6 +184,12 @@ aside > button > a{
   text-align: center;
 }
 
+/*aquí empieza la parte de las localizaciones*/
+
+iframe{
+  width: 70vw;
+  margin: 1em 0;
+}
 
 
   
@@ -231,5 +237,15 @@ aside > button > a{
   flex: 50%;
   max-width: 50%;
 }
+iframe{
+  width: 90vw;
+}
 
+
+}
+@media screen and (max-width: 550px) {
+  .fotos {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
