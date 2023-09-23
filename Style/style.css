@@ -226,14 +226,12 @@ iframe{
   #intro{
     padding: 1.25em 0;
     max-width: 90vw;
-  
   }
+  /*a partir de aquí la biografía*/
+  #viajes img{
+    width: 90vw;
   }
-/*a partir de aquí la biografía*/
-#viajes img{
-  width: 90vw;
-}
-/*esto archivo*/
+  /*esto archivo*/
 .fotos{
   flex: 50%;
   max-width: 50%;
@@ -242,6 +240,7 @@ iframe{
 iframe{
   width: 90vw;
 }
+  }
 
 
 /*esto también archivo*/
