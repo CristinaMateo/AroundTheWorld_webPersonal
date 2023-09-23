@@ -91,7 +91,7 @@ nav > a:hover{
 /*a partir de aquí es sobre la página de index*/
 aside{
   flex: 30%;
-  padding: 1.25em 0;
+  padding: 1.25em 0.8em;
   margin-top: 1.25em;
   background-color: #EAE1D7;
   height: fit-content;
@@ -172,12 +172,18 @@ aside > button > a{
   flex: 25%;
   max-width: 25%;
   padding: 0 0.2em;
+  padding-top: 2em;
+  margin-top: 2em;
 }
 .fotos img{
   margin-top: 0.4em;
   vertical-align: middle;
   width: 100%;
 }
+.fotos h4{
+  text-align: center;
+}
+
 
 
   
