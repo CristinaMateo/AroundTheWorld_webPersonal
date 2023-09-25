@@ -44,7 +44,6 @@ nav > a:hover{
     background-color:#6D4C3D ;
   }
 
-
 .header{
   margin: 1.1em auto;
   padding: 0.55em;
@@ -158,7 +157,7 @@ aside > button > a{
 #viajes .roma{
   padding: 1.25em 0;
 }
-#viajes article section{
+#viajes > article > section{
   padding: 1em 0;
 }
 
@@ -173,16 +172,22 @@ aside > button > a{
   max-width: 25%;
   padding: 0 0.2em;
   padding-top: 2em;
-  margin-top: 2em;
+  /*margin-top: 2em;*/
+}
+.fotos h4{
+  text-align: center;
+ 
 }
 .fotos img{
   margin-top: 0.4em;
   vertical-align: middle;
   width: 100%;
+  &:hover{
+    transform: scale(1.4);
+    transition: .2s ease-in;
+  }
 }
-.fotos h4{
-  text-align: center;
-}
+
 
 /*aquí empieza la parte de las localizaciones*/
 
@@ -198,6 +203,10 @@ iframe{
 @media screen and (max-width: 800px) {
   
   /*esto es general*/
+  main{
+    width: 90%;
+  }
+ 
   nav, main{   
     flex-direction: column;
   }
@@ -205,13 +214,9 @@ iframe{
     width: 100%;
     margin: auto;
   }
-  main{
-    width: 90%;
-  }
+
   /*a partir de aquí el index*/
-  .intro{
-    width: 90vw;
-  }
+  
   aside{
     width: 90vw;
     height: 100vh;
@@ -220,13 +225,17 @@ iframe{
   aside > img{
     width: 90vw;
   }
-  #intro > article > p{
-    width: 90vw;
-  }
   #intro{
     padding: 1.25em 0;
     max-width: 90vw;
   }
+  .intro{
+    width: 90vw;
+  }
+  #intro > article > p{
+    width: 90vw;
+  }
+ 
   /*a partir de aquí la biografía*/
   #viajes img{
     width: 90vw;
