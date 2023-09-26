@@ -115,7 +115,6 @@ aside > button{
 aside > button > a{
   text-decoration: none;
   color: black;
-  padding: 4em auto;
   margin: 4em auto;
 }
 
@@ -132,7 +131,29 @@ aside > button > a{
     width: 40vw;
   }
   }
+}
 
+
+.selector > p:not(:first-child){
+  text-align: center;
+}
+
+.selector > div{
+  display: flex;
+  justify-content: space-around;
+}
+.selector > div > button{
+  border: #ABC4AB solid;
+  padding: 0.5em;
+  border-radius: 0.25em;
+  background-color: #E7EEE7;
+ &:hover{ background-color: #ABC4AB;}
+}
+
+.selector > div > button > a{
+  text-decoration: none;
+  color: black;
+  margin: 4em auto;
 }
 .intro{
     width: 40vw;
