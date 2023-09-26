@@ -274,8 +274,14 @@ iframe{
   }
 
 
-/*esto también archivo*/
+
 @media screen and (max-width: 550px) {
+ /*esto index*/
+ .selector > div {
+  flex-direction: column;
+  gap: 0.5em;
+ }
+  /*esto también archivo*/
   .fotos {
     flex: 100%;
     max-width: 100%;
