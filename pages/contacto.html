@@ -30,7 +30,7 @@
 
         <section id="contact">
             <p>Rellena este formulario para suscribirte a la newsletter y enterarte de todas las actualizaciones de los viajes:</p>
-            <form action="#contact" id="contactForm">
+            <form action="" id="contactForm">
               <label for="fname">Nombre:</label>
               <input
                 type="text"
@@ -49,31 +49,21 @@
                 required
               />
     
-              <label for="fname">Email:</label>
+              <label for="email" >Email:</label>
               <input
-                type="text"
+                type="email"
                 id="email"
                 name="email"
                 placeholder="Introduce email..."
                 required
               />
-    
-              <label for="comments">¿Observaciones?</label>
-              <textarea
-                rows="2"
-                cols="30"
-                name="comments"
-                wrap="hard"
-                placeholder="Tus observaciones..."
-              ></textarea
-              >
-    
-              <label for ="accept"
+  
+              <label for ="accept" id="check"
                 ><input type="checkbox" id="accept" value="accept" name="accept" />
                 Acepto los términos legales</label
               >
     
-              <label for="spam"
+              <label for="spam" id="publi"
                 ><input type="checkbox" id="spam" value="spam" name="spam" /> Acepto
                 recibir publicidad</label
               >
@@ -90,5 +80,7 @@
             <p>¡Gracias por viajar conmigo! Nos vemos en la próxima aventura.</p>
         </section>
     </footer>
+
+    <script src="../script.js"></script>
 </body>
 </html>

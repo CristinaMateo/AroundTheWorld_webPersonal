@@ -223,6 +223,9 @@ iframe{
   width: 40vw;
   margin: 1em auto;
 }
+input{
+  margin-bottom: 1em;
+}
 
 #contact > form {
   display: flex;
@@ -230,34 +233,28 @@ iframe{
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  
+  margin-bottom: 1em;
 }
 
 input[type="text"],
-input[type="email"],
-textarea {
+input[type="email"]{
   width: 100%;
-  padding: 12px 12px;
-  margin: 8px 0;
+  padding: 0.6em 0.6em;
+  margin: 0.4em 0;
   box-sizing: border-box;
-  border-radius: 4px;
-  border: 2px solid black;
+  border-radius: 0.2em;
+  border: 0.1em solid black;
   
 }
 
 input[type="text"]:focus,
-input[type="email"]:focus,
-textarea:focus {
+input[type="email"]:focus {
   background-color: #ABC4AB;
 }
 
-/*#accept, #spam{
-  line-height: 1.25;
-}*/
-
 input[type="submit"] {
-  width: 100px;
-  height: 30px;
+  width: 5em;
+  height: 1.5em;
   transition-duration: 2s;
 }
 input[type="submit"]:hover {
@@ -265,8 +262,10 @@ input[type="submit"]:hover {
  
 }
 
-
-  
+span{
+  width: 40vw;
+  margin: 1em auto;
+}
 
 
 @media screen and (max-width: 800px) {
@@ -322,6 +321,9 @@ iframe{
 /*aquí contacto*/
 #contact{
   width: 90vw;
+}
+span{
+  width: fit-content
 }
   }
 
