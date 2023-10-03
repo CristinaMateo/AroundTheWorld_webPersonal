@@ -26,12 +26,61 @@
     </header>
 
     <main>
-        <p>Rellena este formulario para suscribirte a la newsletter y enterarte de las últimas actualizaciones.</p>
+        
 
-        <form action="">
-            
-
-        </form>
+        <section id="contact">
+            <p>Rellena este formulario para suscribirte a la newsletter y enterarte de todas las actualizaciones de los viajes:</p>
+            <form action="#contact" id="contactForm">
+              <label for="fname">Nombre:</label>
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Introduce nombre..."
+                required
+              />
+    
+              <label for="lname">Apellidos:</label>
+              <input
+                type="text"
+                id="lname"
+                name="lname"
+                placeholder="Introduce apellidos..."
+                required
+              />
+    
+              <label for="fname">Email:</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Introduce email..."
+                required
+              />
+    
+              <label for="comments">¿Observaciones?</label>
+              <textarea
+                rows="2"
+                cols="30"
+                name="comments"
+                wrap="hard"
+                placeholder="Tus observaciones..."
+              ></textarea
+              >
+    
+              <label for ="accept"
+                ><input type="checkbox" id="accept" value="accept" name="accept" />
+                Acepto los términos legales</label
+              >
+    
+              <label for="spam"
+                ><input type="checkbox" id="spam" value="spam" name="spam" /> Acepto
+                recibir publicidad</label
+              >
+    
+              <input type="submit" value="Enviar" />
+            </form>
+          </section>
 
     </main>
 
